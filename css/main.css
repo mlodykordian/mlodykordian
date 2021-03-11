@@ -6,46 +6,26 @@
 }
 
 body {
+  position: relative;
   font-family: 'Inter', sans-serif;
   background-color: #aeb6bf;
 }
 
-nav {
-  height: 50px;
-  background-color: #ae3d44;
-  line-height: 50px;
-}
-
-.title-nav {
-  font-weight: 700;
-}
-
-nav li {
-  font-size: 18px;
-  position: relative;
-  left: 30px;
-  display: inline-block;
-  padding: 0 7px;
-}
-
-nav li a {
-  color: #ffffff;
-  text-decoration: none;
+nav a {
+  color: #fff;
   -webkit-transition: .3s color;
   transition: .3s color;
 }
 
-nav li a:hover {
+nav a:hover {
   color: #ffffff80;
 }
 
-footer {
-  height: 60px;
-  background-color: #2b2f48;
-  font-weight: 500;
-  color: #e4e4e4;
-  text-align: center;
-  line-height: 60px;
-  font-size: 16px;
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav .active {
+  font-weight: 600;
 }
 /*# sourceMappingURL=main.css.map */
