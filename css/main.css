@@ -11,6 +11,10 @@ body {
   background-color: #aeb6bf;
 }
 
+nav {
+  background-color: #ae3d44;
+}
+
 nav a {
   color: #fff;
   -webkit-transition: .3s color;
@@ -27,5 +31,9 @@ nav .navbar-brand {
 
 nav .active {
   font-weight: 600;
+}
+
+nav i {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
