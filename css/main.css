@@ -1,38 +1,55 @@
-@import reset
-@import colors
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-body
-    position: relative
-    font-family: 'Inter', sans-serif
-    background-color: $breezy
+body {
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  background-color: #aeb6bf;
+}
 
-nav
-    background-color: $opera
-    a
-        color: #fff
-        transition: .3s color
+nav {
+  background-color: #ae3d44;
+}
 
-    a:hover
-        color: #ffffff80
+nav a {
+  color: #fff;
+  -webkit-transition: .3s color;
+  transition: .3s color;
+}
 
-    .navbar-brand
-        font-weight: bold
-    
-    .active
-        font-weight: 600
+nav a:hover {
+  color: #ffffff80;
+}
 
-    .fa-bars
-        color: white
+nav .navbar-brand {
+  font-weight: bold;
+}
 
-header
-    color: white
+nav .active {
+  font-weight: 600;
+}
 
-    h1
-        font-weight: bold
+nav .fa-bars {
+  color: white;
+}
 
-    .hero-img
-        height: 100vh
-        background-image: url('../img/world-1264062_640.jpg')
-        background-position: center
-        background-size: cover
-        background-attachment: fixed
+header {
+  color: white;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+header .hero-img {
+  height: 100vh;
+  background-image: url("../img/world-1264062_640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=main.css.map */
