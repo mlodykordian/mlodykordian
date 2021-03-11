@@ -1,39 +1,38 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import reset
+@import colors
 
-body {
-  position: relative;
-  font-family: 'Inter', sans-serif;
-  background-color: #aeb6bf;
-}
+body
+    position: relative
+    font-family: 'Inter', sans-serif
+    background-color: $breezy
 
-nav {
-  background-color: #ae3d44;
-}
+nav
+    background-color: $opera
+    a
+        color: #fff
+        transition: .3s color
 
-nav a {
-  color: #fff;
-  -webkit-transition: .3s color;
-  transition: .3s color;
-}
+    a:hover
+        color: #ffffff80
 
-nav a:hover {
-  color: #ffffff80;
-}
+    .navbar-brand
+        font-weight: bold
+    
+    .active
+        font-weight: 600
 
-nav .navbar-brand {
-  font-weight: bold;
-}
+    .fa-bars
+        color: white
 
-nav .active {
-  font-weight: 600;
-}
+header
+    color: white
 
-nav .fa-bars {
-  color: #fff;
-}
-/*# sourceMappingURL=main.css.map */
+    h1
+        font-weight: bold
+
+    .hero-img
+        height: 100vh
+        background-image: url('../img/world-1264062_640.jpg')
+        background-position: center
+        background-size: cover
+        background-attachment: fixed
