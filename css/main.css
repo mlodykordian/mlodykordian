@@ -12,8 +12,7 @@ body {
 }
 
 nav {
-  background-color: #ae3d44;
-  z-index: 100;
+  background-color: #90272c;
 }
 
 nav a {
@@ -44,6 +43,7 @@ header {
 
 header h1 {
   font-weight: bold;
+  font-size: 3rem;
 }
 
 header .hero-img {
@@ -53,7 +53,7 @@ header .hero-img {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  z-index: 0;
+  z-index: -2;
 }
 
 header .hero-shadow {
@@ -80,5 +80,7 @@ header .hero-text {
           flex-direction: column;
   height: 100%;
   z-index: 5;
+  text-align: center;
+  padding: 10px;
 }
 /*# sourceMappingURL=main.css.map */
