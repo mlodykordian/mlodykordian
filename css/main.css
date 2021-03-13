@@ -27,6 +27,7 @@ nav a:hover {
 
 nav .navbar-brand {
   font-weight: bold;
+  font-size: 18px;
 }
 
 nav .active {
@@ -35,15 +36,12 @@ nav .active {
 
 nav .fa-bars {
   color: white;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
 header {
   color: white;
-}
-
-header h1 {
-  font-weight: bold;
-  font-size: 3rem;
 }
 
 header p {
@@ -86,5 +84,9 @@ header .hero-text {
   height: 100%;
   z-index: 5;
   text-align: center;
+}
+
+header .hero-text img {
+  height: 10rem;
 }
 /*# sourceMappingURL=main.css.map */
