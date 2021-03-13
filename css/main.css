@@ -7,12 +7,12 @@
 
 body {
   position: relative;
-  font-family: 'Inter', sans-serif;
-  background-color: #aeb6bf;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6d04d;
 }
 
 nav {
-  background-color: #7289b3;
+  background-color: #194f90;
 }
 
 nav a {
@@ -46,10 +46,15 @@ header h1 {
   font-size: 3rem;
 }
 
+header p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url("../img/world-1264062_1920.jpg");
+  background-image: url("../img/norway-2128137_1920.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -81,11 +86,5 @@ header .hero-text {
   height: 100%;
   z-index: 5;
   text-align: center;
-  padding: 10px;
-  text-shadow: 3px 3px 5px #000;
-}
-
-section {
-  height: 100vh 
 }
 /*# sourceMappingURL=main.css.map */
