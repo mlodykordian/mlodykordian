@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+/**
+*
+* Testing
+*
+**/
 body {
   position: relative;
   font-family: 'Poppins', sans-serif;
@@ -16,7 +21,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: white;
   -webkit-transition: .3s color;
   transition: .3s color;
 }
@@ -37,15 +42,10 @@ nav .active {
 nav .fa-bars {
   color: white;
   font-size: 18px;
-  white-space: nowrap;
 }
 
 header {
   color: white;
-}
-
-header p {
-  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -84,9 +84,5 @@ header .hero-text {
   height: 100%;
   z-index: 5;
   text-align: center;
-}
-
-header .hero-text img {
-  height: 10rem;
 }
 /*# sourceMappingURL=main.css.map */
