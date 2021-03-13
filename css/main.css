@@ -84,4 +84,8 @@ header .hero-text {
   padding: 10px;
   text-shadow: 3px 3px 5px #000;
 }
+
+section {
+  height: 100vh 
+}
 /*# sourceMappingURL=main.css.map */
