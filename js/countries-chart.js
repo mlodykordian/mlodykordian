@@ -1,23 +1,3 @@
-// var ctx = document.getElementById('myChart').getContext('2d');
-// var chart = new Chart(ctx, {
-//     // The type of chart we want to create
-//     type: 'doughnut',
-
-//     // The data for our dataset
-//     data: {
-//         labels: ['Bułgaria', 'Chorwacja', 'Cypr', 'Czechy', 'Estonia', 'Grecja', 'Węgry', 'Łotwa', 'Litwa', 'Malta', 'Polska', 'Portugalia', 'Rumunia', 'Słowacja', 'Słowenia'],
-//         datasets: [{
-//             label: 'Beneficjenci Funudszy Norweskich i EOG',
-//             backgroundColor: 'rgb(255, 99, 132)',
-//             borderColor: 'rgb(255, 99, 132)',
-//             data: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8]
-//         }]
-//     },
-
-//     // Configuration options go here
-//     options: {}
-// });
-
 var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'pie',
