@@ -85,4 +85,15 @@ header .hero-text {
   z-index: 5;
   text-align: center;
 }
+
+#goals {
+  height: 100vh;
+  background-color: #f6d04d;
+}
+
+@media (max-width: 430px) {
+  .hero-text img {
+    height: 10rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
