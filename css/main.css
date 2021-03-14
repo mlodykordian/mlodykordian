@@ -166,6 +166,9 @@ footer {
 }
 
 @media (max-width: 430px) {
+  header .hero-img {
+    background-position: bottom;
+  }
   header .hero-text img {
     height: 10rem;
   }
