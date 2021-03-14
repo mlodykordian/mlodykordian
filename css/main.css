@@ -123,7 +123,7 @@ header .fa-chevron-down {
 .members .countries-chart-col .chart-container {
   background-color: white;
   border-radius: 20px;
-  padding: 30px;
+  padding: 15px;
 }
 
 .members .countries-chart-col p {
@@ -140,9 +140,37 @@ header .fa-chevron-down {
   height: 60px;
 }
 
+.poland {
+  color: white;
+  height: 100vh;
+  background-color: #eb2e2e;
+}
+
+.effects {
+  height: 100vh;
+  background-color: #9ed85b;
+}
+
+.more {
+  height: 100vh;
+  background-color: #622bc7;
+  color: white;
+}
+
+footer {
+  height: 50px;
+  background-color: #121c3f;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
 @media (max-width: 430px) {
   header .hero-text img {
     height: 10rem;
+  }
+  .members .members-list {
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */
