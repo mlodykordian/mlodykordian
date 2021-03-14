@@ -116,17 +116,18 @@ header .fa-chevron-down {
 }
 
 .members {
-  background-color: #88d8b0;
+  background-color: #96ceb4;
+  color: white;
 }
 
-.members h2 {
-  color: white;
+.members .countries-chart-col p {
+  font-size: 10px;
+  margin-top: -10px;
 }
 
 .members h3 {
   font-weight: 600;
-  font-size: 1rem;
-  margin-top: 10px;
+  font-size: 2rem;
 }
 
 .members .flag {
