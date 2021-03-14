@@ -16,6 +16,12 @@ body {
   background-color: #194f90;
 }
 
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
 nav {
   background-color: #194f90ce;
   z-index: 1;
@@ -109,10 +115,22 @@ header .fa-chevron-down {
   background-color: #f6d04d;
 }
 
-.goals h2 {
-  font-weight: bold;
-  text-align: center;
-  font-size: 3rem;
+.members {
+  background-color: #88d8b0;
+}
+
+.members h2 {
+  color: white;
+}
+
+.members h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.members .flag {
+  height: 60px;
 }
 
 @media (max-width: 430px) {
