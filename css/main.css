@@ -116,8 +116,14 @@ header .fa-chevron-down {
 }
 
 .members {
-  background-color: #96ceb4;
+  background-color: #2999ff;
   color: white;
+}
+
+.members .countries-chart-col .chart-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
 }
 
 .members .countries-chart-col p {
