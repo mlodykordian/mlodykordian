@@ -86,13 +86,24 @@ header .hero-text {
   text-align: center;
 }
 
+header .hero-text h1 {
+  font-size: 1.6rem;
+  padding: 10px;
+}
+
 #goals {
   height: 100vh;
   background-color: #f6d04d;
 }
 
+#goals h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+
 @media (max-width: 430px) {
-  .hero-text img {
+  header .hero-text img {
     height: 10rem;
   }
 }
