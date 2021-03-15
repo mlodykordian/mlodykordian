@@ -5,11 +5,6 @@
   padding: 0;
 }
 
-/**
-*
-* Testing
-*
-**/
 body {
   position: relative;
   font-family: 'Poppins', sans-serif;
@@ -121,14 +116,17 @@ header .fa-chevron-down {
 }
 
 .members .countries-chart-col .chart-container {
+  margin-top: 20px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 15px;
+  height: 650px;
 }
 
 .members .countries-chart-col p {
   font-size: 10px;
-  margin-top: -10px;
+  color: #000;
+  margin-top: 5px;
 }
 
 .members h3 {
@@ -136,8 +134,16 @@ header .fa-chevron-down {
   font-size: 2rem;
 }
 
-.members .flag {
-  height: 60px;
+.members .members-container {
+  margin-top: 20px;
+}
+
+.members .members-container .country-block {
+  height: 200px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px;
+  margin-bottom: 25px;
 }
 
 .poland {
@@ -171,6 +177,9 @@ footer {
   }
   header .hero-text img {
     height: 10rem;
+  }
+  .members .chart-container {
+    height: auto;
   }
   .members .members-list {
     margin-top: 20px;
