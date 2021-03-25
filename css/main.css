@@ -20,14 +20,15 @@ h2 {
 nav {
   background-color: #194f90ce;
   z-index: 1;
-  -webkit-backdrop-filter: blur(9px);
-          backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 
 nav a {
   color: white;
   -webkit-transition: .3s color;
   transition: .3s color;
+  font-size: 16px;
 }
 
 nav a:hover {
@@ -41,11 +42,6 @@ nav .navbar-brand {
 
 nav .active {
   font-weight: 600;
-}
-
-nav .fa-bars {
-  color: white;
-  font-size: 18px;
 }
 
 header {
@@ -64,14 +60,15 @@ header .hero-img {
 }
 
 header .hero-shadow {
-  position: absolute;
-  width: 100%;
   height: 100%;
+  width: 100%;
+  position: absolute;
   background-color: #000000b6;
   z-index: -10;
 }
 
 header .hero-text {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +82,6 @@ header .hero-text {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
   z-index: 5;
   text-align: center;
 }
@@ -105,59 +101,88 @@ header .fa-chevron-down {
   color: white;
 }
 
-.goals {
+main .goals {
   height: 100vh;
   background-color: #f6d04d;
 }
 
-.members {
+main .goals .goal-block {
+  height: 100px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .goals .goal-block p {
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+main .goals .goal-block img {
+  height: 70px;
+}
+
+main .goals #increase, main .goals #group, main .goals .differences {
+  margin-top: 15px;
+}
+
+main .goals .differences, main .goals .about-grants {
+  background-color: white;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+main .goals .differences h4, main .goals .about-grants h4 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+main .members {
   background-color: #2999ff;
   color: white;
 }
 
-.members .countries-chart-col .chart-container {
-  margin-top: 20px;
+main .members h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+main .members .countries-chart .chart-container {
   background-color: white;
   border-radius: 25px;
   padding: 15px;
   height: 650px;
 }
 
-.members .countries-chart-col p {
+main .members .countries-chart p {
   font-size: 10px;
   color: #000;
   margin-top: 5px;
 }
 
-.members h3 {
-  font-weight: 600;
-  font-size: 2rem;
-}
-
-.members .members-container {
-  margin-top: 20px;
-}
-
-.members .members-container .country-block {
-  height: 200px;
-  background-color: white;
-  border-radius: 25px;
-  padding: 15px;
-  margin-bottom: 25px;
-}
-
-.poland {
-  color: white;
+main .poland {
   height: 100vh;
   background-color: #eb2e2e;
+  color: white;
 }
 
-.effects {
+main .effects {
   height: 100vh;
   background-color: #9ed85b;
 }
 
-.more {
+main .more {
   height: 100vh;
   background-color: #622bc7;
   color: white;
@@ -171,18 +196,11 @@ footer {
   line-height: 50px;
 }
 
-@media (max-width: 430px) {
-  header .hero-img {
-    background-position: bottom;
-  }
-  header .hero-text img {
-    height: 10rem;
-  }
-  .members .chart-container {
-    height: auto;
-  }
-  .members .members-list {
-    margin-top: 20px;
-  }
+footer .forent-logo {
+  font-weight: 600;
+}
+
+footer .team-logo {
+  font-weight: 100;
 }
 /*# sourceMappingURL=main.css.map */
