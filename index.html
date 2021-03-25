@@ -43,29 +43,47 @@
         <section id="goals" class="goals py-5">
             <div class="container">
                 <br><h2><i class="fas fa-list"></i> Cele</h2><hr>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="goal-block" id="networking">
+                            <img src="img/networking.svg" alt=""><p>Zaciśnianie relacji między Islandią, Lichtensteinem i Norwegią, a beneficjentami Funduszy.</p>
+                        </div>
+                        <div class="goal-block" id="increase">
+                            <img src="img/increase.svg" alt=""><p>Zmniejszenie nierówności społecznych i ekonomicznych w Europie.</p>
+                        </div>
+                        <div class="goal-block" id="group">
+                            <img src="img/group.svg" alt=""><p>Umacnianie wartości europejskich takich jak demokracja, tolerancja i praworządność.</p>
+                        </div>
+                        <div class="container differences"> 
+                            <!-- <i class="far fa-question-circle"></i> -->
+                            <h4 class="text-center">Czym się różnią Fundusze Norweskie od Funduszy EOG?</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="container about-grants">
+                            <h4 class="text-center">Czym są Fundusze?</h4>
+                            <p>Fundusze Norweskie i Fundusze EOG </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="members" class="members py-5">
             <div class="container">
                 <br><h2><i class="fas fa-users"></i> Członkowie</h2><hr>
                 <div class="row">
-                    <div class="col-sm-6 text-center countries-chart-col">
+                    <div class="col-lg-6 text-center countries-chart">
                         <h3><i class="fas fa-percent"></i> Podział funduszy</h3>
-                        <div class="chart-container">
+                        <div class="container chart-container">
                             <canvas id="myChart" width="200px" height="200px"></canvas>
                             <p>Wyniki są podawane w procentach</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 text-center members-list">
-                        <h3><i class="fas fa-list-ol"></i> Najwięksi beneficjenci</h3>
+                    <div class="col-lg-6 text-center members-list">
+                        <h3><i class="fas fa-list-ol"></i> Lista członków</h3>
                         <div class="members-container">
-                            <div id="pol-block" class="country-block">
-
-                            </div>
-                            <div id="rom-block" class="country-block">
-
-                            </div>
-                            <div id="bul-block" class="country-block">
+                            <div class="col-lg-6">
 
                             </div>
                         </div>
@@ -75,23 +93,27 @@
         </section>
         <section id="poland" class="poland py-5">
             <div class="container">
-                <br><h2>Polska</h2><hr>
+                <br><h2><i class="fas fa-flag"></i> Polska</h2><hr>
             </div>
         </section>
         <section id="effects" class="effects py-5">
             <div class="container">
-                <br><h2>Efekty</h2><hr>
+                <br><h2><i class="fas fa-star"></i> Efekty</h2><hr>
             </div>
         </section>
         <section id="more" class="more py-5">
             <div class="container">
-                <br><h2>Więcej</h2><hr>
+                <br><h2><i class="fas fa-plus-circle"></i> Więcej</h2><hr>
             </div>
         </section>
     </main>
-    <footer><p>Zjednoczeni w różnorodności.</p></footer>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="js/countries-chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <footer>
+        <p>Zjednoczeni w różnorodności. Stworzone przez <span class="forent-logo">Forent</span><span class="team-logo">Team</span>.</p>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js/countries-chart.js"></script>
 </body>
 </html>
