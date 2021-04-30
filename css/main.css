@@ -1,0 +1,125 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  background-color: #979797;
+}
+
+nav {
+  z-index: 100;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
+  font-weight: 300;
+}
+
+nav img {
+  -webkit-transition: -webkit-filter .2s;
+  transition: -webkit-filter .2s;
+  transition: filter .2s;
+  transition: filter .2s, -webkit-filter .2s;
+  height: 35px;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #1ac2ec;
+}
+
+nav .active {
+  font-weight: 500;
+}
+
+nav .fa-bars {
+  padding: 10px;
+  color: #fff;
+}
+
+.shadow-bg {
+  background-color: rgba(15, 15, 15, 0.842);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+}
+
+.shadow-bg img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+header {
+  color: #fff;
+}
+
+header .hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/budynek.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -10;
+}
+
+header .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 5;
+  padding: 10px;
+}
+
+header .hero-text img {
+  height: 80%;
+}
+
+header .fa-chevron-down {
+  position: absolute;
+  font-size: 30px;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #fff;
+}
+
+@media (max-width: 770px) {
+  .navbar {
+    background-color: rgba(15, 15, 15, 0.842);
+    -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+  }
+  .navbar img {
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
