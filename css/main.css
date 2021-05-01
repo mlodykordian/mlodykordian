@@ -23,7 +23,7 @@ nav img {
   transition: -webkit-filter .2s;
   transition: filter .2s;
   transition: filter .2s, -webkit-filter .2s;
-  height: 35px;
+  height: 30px;
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
 }
@@ -46,9 +46,9 @@ nav .fa-bars {
 }
 
 .shadow-bg {
-  background-color: rgba(15, 15, 15, 0.842);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
+  background-color: rgba(10, 10, 10, 0.904);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 
 .shadow-bg img {
@@ -111,7 +111,45 @@ header .fa-chevron-down {
   color: #fff;
 }
 
-@media (max-width: 770px) {
+main .nasza-szkola {
+  height: 200vh;
+  background-color: #f0f0f0;
+}
+
+main .nasza-szkola .misja h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+main .nasza-szkola .misja blockquote {
+  margin: 20px 100px 20px 0;
+}
+
+main .nasza-szkola .misja blockquote p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #414141;
+}
+
+main .nasza-szkola .misja blockquote .span-patriotyzm {
+  color: #df3232;
+}
+
+main .nasza-szkola .misja blockquote .span-tolerancja {
+  color: #ee7129;
+}
+
+main .nasza-szkola .misja blockquote .span-otwartosc {
+  color: #175dc5;
+}
+
+main .nasza-szkola .misja blockquote .span-ekologia {
+  color: #42b326;
+}
+
+@media (max-width: 992px) {
   .navbar {
     background-color: rgba(15, 15, 15, 0.842);
     -webkit-backdrop-filter: blur(12px);
@@ -120,6 +158,20 @@ header .fa-chevron-down {
   .navbar img {
     -webkit-filter: none;
             filter: none;
+  }
+  header img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  main .nasza-szkola .misja h2 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  main .nasza-szkola .misja blockquote {
+    margin: 20px 50px 20px 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
