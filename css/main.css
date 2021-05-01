@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -111,26 +112,39 @@ header .fa-chevron-down {
   color: #fff;
 }
 
-main .nasza-szkola {
-  height: 200vh;
-  background-color: #f0f0f0;
+main .nasza-szkola .misja {
+  background-color: black;
+  background-image: url("../img/seneka.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 80% 0;
+  padding: 10px;
+}
+
+main .nasza-szkola .misja img {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: -100px;
 }
 
 main .nasza-szkola .misja h2 {
+  margin-top: 20px;
   font-size: 80px;
   font-weight: 700;
   line-height: 70px;
+  color: white;
 }
 
 main .nasza-szkola .misja blockquote {
-  margin: 20px 100px 20px 0;
+  margin: 20px 350px 20px 0;
 }
 
 main .nasza-szkola .misja blockquote p {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 30px;
-  color: #414141;
+  color: #969696;
 }
 
 main .nasza-szkola .misja blockquote .span-patriotyzm {
@@ -138,7 +152,7 @@ main .nasza-szkola .misja blockquote .span-patriotyzm {
 }
 
 main .nasza-szkola .misja blockquote .span-tolerancja {
-  color: #ee7129;
+  color: #b454ec;
 }
 
 main .nasza-szkola .misja blockquote .span-otwartosc {
@@ -147,6 +161,61 @@ main .nasza-szkola .misja blockquote .span-otwartosc {
 
 main .nasza-szkola .misja blockquote .span-ekologia {
   color: #42b326;
+}
+
+main .nasza-szkola .misja .quote-misja {
+  font-size: 32px;
+}
+
+main .nasza-szkola .misja .quote-misja::before {
+  content: "„";
+}
+
+main .nasza-szkola .misja .quote-misja::after {
+  content: "”";
+}
+
+main .nasza-szkola .profile {
+  background-color: #ebebeb;
+}
+
+main .nasza-szkola .profile h2 {
+  font-weight: 800;
+  font-size: 80px;
+  color: #0f0f0f;
+}
+
+main .nasza-szkola .profile h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+main .nasza-szkola .profile .row {
+  margin-top: 20px;
+}
+
+main .nasza-szkola .profile img {
+  height: 80px;
+  display: block;
+  margin: 10px auto;
+  -webkit-filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 0.445));
+          filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 0.445));
+}
+
+main .nasza-szkola .profile .block-profil {
+  margin: 20px 10px;
+  height: 400px;
+  background-color: #e7e7e7;
+  padding: 15px;
+  border-radius: 25px;
+  -webkit-box-shadow: inset 6px 6px 16px #ffffff50, inset -6px -6px 16px #b9b9b950;
+          box-shadow: inset 6px 6px 16px #ffffff50, inset -6px -6px 16px #b9b9b950;
+}
+
+main .nasza-szkola .profile .block-profil ul {
+  font-weight: 600;
 }
 
 @media (max-width: 992px) {
@@ -165,6 +234,10 @@ main .nasza-szkola .misja blockquote .span-ekologia {
 }
 
 @media (max-width: 768px) {
+  main .nasza-szkola .misja {
+    background-image: url("../img/seneka-transparentne.png");
+    background-position: 100% 100%;
+  }
   main .nasza-szkola .misja h2 {
     font-size: 80px;
     font-weight: 700;
