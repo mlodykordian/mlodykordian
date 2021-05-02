@@ -9,7 +9,6 @@
 body {
   font-family: 'Inter', sans-serif;
   position: relative;
-  background-color: #979797;
 }
 
 nav {
@@ -176,13 +175,12 @@ main .nasza-szkola .misja .quote-misja::after {
 }
 
 main .nasza-szkola .profile {
-  background-color: #ebebeb;
+  background-color: #f8f8f8;
 }
 
 main .nasza-szkola .profile h2 {
   font-weight: 800;
   font-size: 80px;
-  color: #0f0f0f;
 }
 
 main .nasza-szkola .profile h3 {
@@ -207,15 +205,41 @@ main .nasza-szkola .profile img {
 main .nasza-szkola .profile .block-profil {
   margin: 20px 10px;
   height: 400px;
-  background-color: #e7e7e7;
-  padding: 15px;
+  background-color: #ebebeb;
+  padding: 15px 20px;
   border-radius: 25px;
-  -webkit-box-shadow: inset 6px 6px 16px #ffffff50, inset -6px -6px 16px #b9b9b950;
-          box-shadow: inset 6px 6px 16px #ffffff50, inset -6px -6px 16px #b9b9b950;
+  -webkit-box-shadow: 6px 6px 10px #3b3b3b50;
+          box-shadow: 6px 6px 10px #3b3b3b50;
+  position: relative;
 }
 
-main .nasza-szkola .profile .block-profil ul {
-  font-weight: 600;
+main .nasza-szkola .profile .block-profil .rozszerzenia {
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: -5px;
+}
+
+main .nasza-szkola .profile .block-profil .rozszerzenia::before {
+  content: "Rozszerzenia: ";
+  font-weight: bold;
+}
+
+main .nasza-szkola .profile .block-profil .separated-span::before {
+  content: " | ";
+}
+
+main .nasza-szkola .profile .block-profil .btn {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main .nasza-szkola .profile .block-profil .p-description {
+  position: absolute;
+  bottom: 20%;
+  margin: 0 5px;
 }
 
 @media (max-width: 992px) {
@@ -223,6 +247,15 @@ main .nasza-szkola .profile .block-profil ul {
     background-color: rgba(15, 15, 15, 0.842);
     -webkit-backdrop-filter: blur(12px);
             backdrop-filter: blur(12px);
+  }
+  .navbar main .nasza-szkola .misja {
+    background-image: url("../img/seneka-transparentne.png");
+    background-position: 100% 100%;
+  }
+  .navbar main .nasza-szkola .misja h2 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
   }
   .navbar img {
     -webkit-filter: none;
