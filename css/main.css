@@ -19,11 +19,11 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .color-border {
@@ -230,7 +230,7 @@ main .enrollment .enroll-box h2 {
 
 main .enrollment .enroll-box p {
   width: 60%;
-  margin: 60px 0;
+  margin: 40px 0;
   font-size: 16px;
 }
 
@@ -282,6 +282,7 @@ main .news {
     height: auto;
   }
   main .enrollment .enroll-box h2 {
+    padding: 20px 0;
     font-size: 52px;
     line-height: 52px;
   }
@@ -290,7 +291,7 @@ main .news {
   }
   main .enrollment .enroll-box p .sign {
     line-height: 32px;
-    margin: 15px 0 20px;
+    margin: 15px 0;
   }
 }
 
@@ -308,6 +309,10 @@ main .news {
   }
   main .enrollment .enroll-box {
     height: auto;
+    padding: 90px 0;
+  }
+  main .enrollment .enroll-box p {
+    width: 75%;
   }
 }
 /*# sourceMappingURL=main.css.map */
