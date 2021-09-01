@@ -299,7 +299,6 @@ main .news .news-box h2 {
 main .contact {
   height: 60vh;
   background-image: url(../img/Thur.svg);
-  background-color: #fff9f9;
   background-repeat: no-repeat;
   background-position: 40vw;
   display: -webkit-box;
