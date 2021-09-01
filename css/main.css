@@ -107,11 +107,13 @@ main .profiles {
 }
 
 main .profiles .profiles-box {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.91);
   border-radius: 25px;
   padding: 50px 20px;
-  -webkit-box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
-          box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
+  -webkit-box-shadow: 6px 6px 18px rgba(29, 29, 29, 0.6);
+          box-shadow: 6px 6px 18px rgba(29, 29, 29, 0.6);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -168,7 +170,7 @@ main .profiles .profiles-box .subjects-box p {
 
 main .profiles .profiles-box .subjects-box p span {
   padding: 3px;
-  background-color: #e1e1e1;
+  background-color: #e5e5e5;
   border-radius: 5px;
   margin: 2px;
   display: inline-block;
@@ -202,9 +204,9 @@ main .enrollment {
 }
 
 main .enrollment .enroll-box {
-  background-color: #f8f8f8;
-  -webkit-box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
-          box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
+  background-color: rgba(248, 248, 248, 0.91);
+  -webkit-box-shadow: 6px 6px 18px rgba(29, 29, 29, 0.6);
+          box-shadow: 6px 6px 18px rgba(29, 29, 29, 0.6);
   padding: 40px;
   height: 75vh;
   text-align: center;
@@ -222,6 +224,8 @@ main .enrollment .enroll-box {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
 }
 
 main .enrollment .enroll-box h2 {
@@ -248,11 +252,66 @@ main .enrollment .enroll-box .sign-title {
 
 main .about-us {
   height: 100vh;
+  background-image: url(../img/Lavender.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main .news {
   height: 100vh;
   background-color: #19294d;
+}
+
+main .contact {
+  height: 60vh;
+  background-image: url(../img/Green-bonbon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .contact .contact-box {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 25px;
+  -webkit-box-shadow: 6px 6px 18px rgba(29, 29, 29, 0.6);
+          box-shadow: 6px 6px 18px rgba(29, 29, 29, 0.6);
+}
+
+main .contact .contact-box p {
+  line-height: 10px;
+}
+
+main .contact .contact-box h2 {
+  font-size: 36px;
+}
+
+main .contact .contact-box h3 {
+  font-size: 20px;
+  padding: 5px;
 }
 
 @media (max-width: 767px) {
