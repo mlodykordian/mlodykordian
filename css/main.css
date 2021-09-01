@@ -1,0 +1,281 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.color-border {
+  background: -webkit-gradient(linear, left top, right top, color-stop(33%, #0fbce6), color-stop(33%, #f32e2f), color-stop(67%, #f32e2f), color-stop(67%, #1f448c));
+  background: linear-gradient(to right, #0fbce6 33%, #f32e2f 33%, #f32e2f 67%, #1f448c 67%);
+  height: 20px;
+  border: 0 solid;
+}
+
+.nav-bg {
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-box-shadow: 0 5px 9px rgba(12, 56, 85, 0.3);
+          box-shadow: 0 5px 9px rgba(12, 56, 85, 0.3);
+}
+
+nav {
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+nav .nav-link {
+  color: #212529;
+}
+
+nav .nav-link:hover {
+  color: #12b7e1;
+}
+
+nav .active {
+  color: #12b7e1;
+}
+
+nav .fa-compass {
+  color: #1d4389;
+  font-size: 20px;
+  padding: 5px;
+}
+
+header {
+  height: 100vh;
+  background-color: #fafafa;
+  background-image: url(/img/Whangaehu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  height: 700px;
+}
+
+main .profiles {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #f6f6f6;
+  background-image: url(../img/Waimakariri.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main .profiles .profiles-box {
+  background-color: white;
+  border-radius: 25px;
+  padding: 50px 20px;
+  -webkit-box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
+          box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .profiles .profiles-box h2 {
+  font-size: 4em;
+}
+
+main .profiles .profiles-box .subtitle {
+  margin-top: -5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+main .profiles .profiles-box .profile-icon {
+  margin: 15px auto 5px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+main .profiles .profiles-box .profile-icon img {
+  height: 110px;
+  padding: 5px;
+}
+
+main .profiles .profiles-box .profile-header {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+main .profiles .profiles-box .profile-header h3 {
+  font-size: 1.1em;
+}
+
+main .profiles .profiles-box .subjects-box {
+  height: 75px;
+  position: relative;
+  padding: 15px 0;
+  border-bottom: 1px solid #000;
+}
+
+main .profiles .profiles-box .subjects-box p {
+  width: 100%;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .profiles .profiles-box .subjects-box p span {
+  padding: 3px;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  margin: 2px;
+  display: inline-block;
+}
+
+main .profiles .profiles-box .profile-description {
+  padding: 15px 0 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+main .profiles .profiles-box .see-more-btn {
+  padding: 5px 0 15px;
+}
+
+main .enrollment {
+  height: 100vh;
+  background-image: url(../img/bg.svg);
+  background-color: #ffebe2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .enrollment .enroll-box {
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
+          box-shadow: 8px 8px 14px rgba(29, 29, 29, 0.6);
+  padding: 40px;
+  height: 75vh;
+  text-align: center;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .enrollment .enroll-box h2 {
+  font-size: 4em;
+}
+
+main .enrollment .enroll-box p {
+  width: 60%;
+  margin: 60px 0;
+}
+
+main .enrollment .enroll-box .sign {
+  font-family: "Caveat", cursive;
+  font-size: 3em;
+  display: block;
+  margin-top: -5px;
+}
+
+main .enrollment .enroll-box .sign-title {
+  font-size: 0.8em;
+  display: block;
+  margin-top: -10px;
+}
+
+main .news {
+  height: 100vh;
+  background-color: #19294d;
+}
+
+@media (max-width: 767px) {
+  header img {
+    height: 300px;
+  }
+  nav .collapse {
+    height: 100vh;
+  }
+  main .profiles {
+    height: auto;
+    padding: 25px 5px;
+  }
+  main .profiles .profiles-box {
+    height: auto;
+  }
+  main .profiles .profiles-box h2 {
+    font-size: 3.5em;
+    line-height: 0.9em;
+    padding-bottom: 25px;
+  }
+  main .enrollment {
+    height: auto;
+    padding: 25px 5px;
+  }
+  main .enrollment .enroll-box {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
